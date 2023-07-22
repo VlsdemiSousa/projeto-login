@@ -28,7 +28,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-   
     overflow: hidden;
 
     background-color: white;
@@ -119,7 +118,8 @@ section#login {
 
     form > a.botao {
         display: block;
-        text-align: center;
+        text-align:center;
+        padding: 5px;
         font-size: 1em;
         width: 96%;
         height: 40px;
@@ -128,7 +128,7 @@ section#login {
         color: #4f7e7d;
         border: 1px solid #49a09d;
         border-radius: 5px;
-        text-decoration: none;
+        text-decoration:none;
     }
 
     form > a.botao:hover {
